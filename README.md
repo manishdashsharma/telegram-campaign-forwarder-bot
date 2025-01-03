@@ -1,7 +1,3 @@
-Here's an updated version of the README that incorporates the new process where the bot will first run a script to join the groups and retrieve their IDs:
-
----
-
 # Telegram Campaign Forwarder Bot
 
 This is a Telegram bot that automates the process of forwarding advertising campaigns or messages to multiple Telegram groups at regular intervals. The bot allows users to create, update, start, stop, and manage campaigns via simple commands.
@@ -116,16 +112,6 @@ python join_groups.py
 - Add a web-based dashboard for campaign management.
 - Implement database support for better scalability.
 - Add functionality to manage chat IDs directly through bot commands.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
 
 ### Key Updates:
 - **`join_groups.py`**: A new script that the bot runs first to join groups and collect chat IDs.
